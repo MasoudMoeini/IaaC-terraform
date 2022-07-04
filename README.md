@@ -1,4 +1,4 @@
-# Deploying infrustructur into Docker Desktop
+# Deploying Infrastructur into Docker Desktop
 Deployment of Nginx web server to Docker Desktop with terraform<br/>
 [Reference](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started)
 
