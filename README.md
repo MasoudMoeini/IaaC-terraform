@@ -8,6 +8,7 @@ terraform init
 ```
 terraform apply 
 ```
+```
 http://localhost:8000
 ```
 ```
