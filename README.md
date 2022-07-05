@@ -65,6 +65,11 @@ terraform apply
      }
    }
 ```
+To compare deployed infrastructure with current 
+```
+terraform plan
+``` 
+```
 Destroy Infrastructure
 ``` 
 terraform destroy
