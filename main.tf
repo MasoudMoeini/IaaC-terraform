@@ -1,9 +1,13 @@
 provider "google" {
-  credentials = file("warm-rookery-325409-9706537f6ad9.json")
+  #credentials = file("warm-rookery-325409-9706537f6ad9.json")
+  credentials = file(var.credentials_file)
+  project = var.project
+  region  = var.region
+  zone    = var.zone
 
-  project = "warm-rookery-325409"
-  region  = "us-central1"
-  zone    = "us-central1-c"
+  #project = "warm-rookery-325409"
+  #region  = "us-central1"
+  #zone    = "us-central1-c"
 }
 
 resource "google_compute_network" "vpc_network" {
