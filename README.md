@@ -45,6 +45,7 @@ Again run this command
 ``` 
 terraform apply
 ```
+Updating existing resources(- remove,+ replace)
 ```
  resource "google_compute_instance" "vm_instance" {
    name         = "terraform-instance"
